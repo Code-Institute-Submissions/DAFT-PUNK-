@@ -1,0 +1,394 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+
+
+.heading{
+    font-family: Anton;
+    font-size: 300%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+   
+}
+
+.navbar.trigger {
+
+    transition: 750ms ease;
+    background: black !important;
+    color: white;
+   
+}
+
+.navbar a {
+    
+    color: white;
+   
+}
+
+
+
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 4px;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.link-left{
+    margin-right: 100px;
+}
+
+.link-right{
+    margin-left: 100px;
+}
+
+@media (min-width: 200px) {
+    
+    .heading-sm{
+        display: none;
+    }
+
+}
+
+
+
+.callout-container{
+    height: 100vh;
+
+    background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top left ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    position: relative;
+    top: -100px;
+
+   
+}
+
+
+
+
+
+
+.albums{
+    margin-top: -100px;
+    padding-top: 200px;
+    background-color: black;
+    height: 100vh;
+    background: url('C:/Work/code institute/daft punk website/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.albumcol{
+    background-color: rgba(0, 0, 0, 0);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.picone{
+    height: 300px;
+    width: 300px;
+    background: url('C:/Work/code institute/daft punk website/NJ3fGAR.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid #363636;
+}
+.pictwo{
+    height: 350px;
+    width: 350px;
+    background: url('C:/Work/code institute/daft punk website/MUS000377957_600x.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid #363636;
+}
+.picthree{
+    height: 300px;
+    width: 300px;
+    background: url('C:/Work/code institute/daft punk website/MUS000358761_600x.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid #363636;
+} */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+/* nav -------------------------------------------- */
+
+
+body{
+    background: black;
+}
+
+.heading{
+    font-family: Anton;
+    font-size: 300%;
+}
+
+.heading-sm{
+    font-family: Anton;
+    font-size: 150%;
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+   
+}
+
+.navbar.trigger {
+
+    transition: 750ms ease;
+    background: black !important;
+    color: white;
+   
+}
+
+.navbar a {
+    
+    color: white;
+   
+}
+
+
+
+
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.9);
+
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 4px;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.link-left{
+    margin-right: 100px;
+}
+
+.navbar-toggler{
+    z-index: 2;
+}
+
+.link-right{
+    margin-left: 100px;
+}
+
+@media (min-width: 200px) {
+    
+    .heading-sm{
+        display: block !important;
+    }
+
+    .navbar{
+        background-color: black;
+
+    }
+
+    .callout-container{
+        height: 100vh;
+    
+        background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top right ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        position: relative;
+        top: -100px;
+    
+       
+    }
+
+}
+
+@media (min-width: 580px) {
+
+    .navbar{
+        background-color: transparent;
+
+    }
+    
+    .heading-sm{
+        display: none !important;
+    }
+    
+    #navbarNavDropdown{
+        display: none !important;
+    }
+
+    .link-left{
+        margin-right: 50px;
+    }
+
+    .link-right{
+        margin-left: 50px;
+    }
+   
+    .callout-container{
+        height: 100vh;
+    
+        background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top  ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        position: relative;
+        top: -100px;
+    
+       
+    }
+   
+}
+
+@media (min-width: 1000px) {
+
+    .link-left{
+        margin-right: 100px;
+    }
+
+    .link-right{
+        margin-left: 100px;
+    }
+   
+    
+    
+   
+}
+
+/* header -------------------------------------------- */ 
+/* C:/Work/code institute/daft punk website/daft-punk.jpg */
+/* C:/Work/code institute/daft punk website/daft-punk2.jpg */
+
+.callout-container{
+    height: 100vh;
+
+    background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top left ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
+    position: relative;
+    top: -100px;
+
+   
+}
+
+
+
+/* albums -------------------------------------------- */ 
+
+
+.albums{
+    margin-top: -100px;
+    padding-top: 200px;
+    background-color: black;
+    height: 100vh;
+    background: url('C:/Work/code institute/daft punk website/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+.albumcol{
+    background-color: rgba(0, 0, 0, 0);
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.picone{
+    height: 300px;
+    width: 300px;
+    background: url('C:/Work/code institute/daft punk website/NJ3fGAR.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid #363636;
+}
+.pictwo{
+    height: 350px;
+    width: 350px;
+    background: url('C:/Work/code institute/daft punk website/MUS000377957_600x.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid #363636;
+}
+.picthree{
+    height: 300px;
+    width: 300px;
+    background: url('C:/Work/code institute/daft punk website/MUS000358761_600x.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    border: 1px solid #363636;
+}
