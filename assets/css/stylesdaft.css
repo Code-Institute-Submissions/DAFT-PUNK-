@@ -1,3 +1,6 @@
+
+
+
 /* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
@@ -146,11 +149,12 @@
 } */
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
 
 
-/* nav -------------------------------------------- */
+/* ---------------------------------------nav */
 
 
 body{
@@ -162,10 +166,7 @@ body{
     font-size: 300%;
 }
 
-.heading-sm{
-    font-family: Anton;
-    font-size: 150%;
-}
+
 
 .navbar {
     background-color: rgba(0, 0, 0, 0);
@@ -181,13 +182,13 @@ body{
    
 }
 
+
+
 .navbar a {
     
     color: white;
    
 }
-
-
 
 
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
@@ -210,19 +211,11 @@ body{
     justify-content:center;
 }
 
-.link-left{
-    margin-right: 100px;
-}
-
-.navbar-toggler{
-    z-index: 2;
-}
-
-.link-right{
-    margin-left: 100px;
-}
 
 @media (min-width: 200px) {
+
+
+/* ---------------------------------------nav sm */
     
     .heading-sm{
         display: block !important;
@@ -233,10 +226,40 @@ body{
 
     }
 
+    .heading-sm{
+        font-family: Anton;
+        font-size: 150%;
+    }
+
+
+    .navbar-toggler-icon {
+        color: rgb(255, 255, 255);
+        z-index: 3;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+    }
+
+    .navbar-toggler:hover, 
+    .navbar-toggler:active,
+    .navbar-toggler:focus,
+    .navbar-toggler:focus-visible{
+        padding: .25rem .75rem;
+        line-height: 1;
+        background-color: #ffffff00;
+        border: 1px solid #ffffff00;
+        border-radius: .25rem;
+        
+    }
+
+/* ---------------------------------------header sm */
+
+
     .callout-container{
         height: 100vh;
     
-        background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top right ;
+        background: url('../images/daft-punk.jpg') no-repeat top center ;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -251,6 +274,65 @@ body{
     
        
     }
+
+
+/* ---------------------------------------albums sm */
+
+
+
+    .albums{
+        margin-top: -100px;
+        padding-top: 00px;
+        background-color: rgb(0, 0, 0);
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    }
+    
+    .albumcol{
+        background-color: rgba(0, 0, 0, 0);
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .picone{
+        height: 50%;
+        width: 100%;
+        background: url('../images/NJ3fGAR.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 1px solid #363636;
+    }
+    .pictwo{
+        height: 50%;
+        width: 120%;
+        background: url('../images/MUS000377957_600x.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 1px solid #363636;
+    }
+    .picthree{
+        height: 50%;
+        width: 100%;
+        background: url('../images/MUS000358761_600x.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 1px solid #363636;
+    }
+    
+/* ---------------------------------------about sm */
+
+    
 
 }
 
@@ -276,11 +358,13 @@ body{
     .link-right{
         margin-left: 50px;
     }
+
+/* ---------------------------------------header md */
    
     .callout-container{
         height: 100vh;
     
-        background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top  ;
+        background: url('../images/daft-punk.jpg') no-repeat top  ;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -295,10 +379,72 @@ body{
     
        
     }
+
+/* ---------------------------------------albums md */
+
+
+    .albums{
+        margin-top: -100px;
+        padding-top: 200px;
+        background-color: black;
+        height: 100vh;
+        background: url('../images/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    }
+    
+    .albumcol{
+        background-color: rgba(0, 0, 0, 0);
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .picone{
+        height: 300px;
+        width: 300px;
+        background: url('../images/NJ3fGAR.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 1px solid #363636;
+    }
+    .pictwo{
+        height: 350px;
+        width: 350px;
+        background: url('../images/MUS000377957_600x.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 1px solid #363636;
+    }
+    .picthree{
+        height: 300px;
+        width: 300px;
+        background: url('C:/Work/code institute/DAFT-PUNK-/assets/images/Daft_Punk_-_Discovery.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        border: 1px solid #363636;
+    }
+
+    /* ---------------------------------------about md */
+
+
+    
    
 }
 
 @media (min-width: 1000px) {
+
+    /* ---------------------------------------nav lg */
 
     .link-left{
         margin-right: 100px;
@@ -307,88 +453,65 @@ body{
     .link-right{
         margin-left: 100px;
     }
+
+
+    /* ---------------------------------------albums lg */
    
+    .callout-container{
+        height: 100vh;
+    
+        background: url('../images/daft-punk.jpg') no-repeat top left ;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+        position: relative;
+        top: -100px;
+    
+       
+    }
+
+    /* ---------------------------------------about lg */
+
+
     
     
+    .about-text{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width:75%;
+    }
+
+    .about-heading{
+        font-family: Russo One;
+        font-size: 200%;
+        letter-spacing: 3px;
+        color: white;
+    }
+
+    .about-text{
+        font-family: Exo;
+        font-size: 100%;
+        letter-spacing: 2px;
+        color: rgba(255, 255, 255, 0.705);
+    }
    
 }
 
-/* header -------------------------------------------- */ 
-/* C:/Work/code institute/daft punk website/daft-punk.jpg */
-/* C:/Work/code institute/daft punk website/daft-punk2.jpg */
-
-.callout-container{
-    height: 100vh;
-
-    background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top left ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content:center;
-
-    position: relative;
-    top: -100px;
-
-   
-}
 
 
 
-/* albums -------------------------------------------- */ 
 
 
-.albums{
-    margin-top: -100px;
-    padding-top: 200px;
-    background-color: black;
-    height: 100vh;
-    background: url('C:/Work/code institute/daft punk website/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-}
 
-.albumcol{
-    background-color: rgba(0, 0, 0, 0);
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
 
-.picone{
-    height: 300px;
-    width: 300px;
-    background: url('C:/Work/code institute/daft punk website/NJ3fGAR.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 1px solid #363636;
-}
-.pictwo{
-    height: 350px;
-    width: 350px;
-    background: url('C:/Work/code institute/daft punk website/MUS000377957_600x.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 1px solid #363636;
-}
-.picthree{
-    height: 300px;
-    width: 300px;
-    background: url('C:/Work/code institute/daft punk website/MUS000358761_600x.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 1px solid #363636;
-}
+
+
+
+
