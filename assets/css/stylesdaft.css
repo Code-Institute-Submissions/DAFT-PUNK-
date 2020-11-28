@@ -2,43 +2,29 @@
 
 
 /* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
-
-
-
 .heading{
     font-family: Anton;
     font-size: 300%;
 }
-
 .navbar {
     background-color: rgba(0, 0, 0, 0);
     color: white;
    
 }
-
 .navbar.trigger {
-
     transition: 750ms ease;
     background: black !important;
     color: white;
    
 }
-
 .navbar a {
     
     color: white;
    
 }
-
-
-
-
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.9);
-
 }
-
 .navbar-brand {
     display: inline-block;
     padding-top: .3125rem;
@@ -47,55 +33,37 @@
     line-height: inherit;
     white-space: nowrap;
 }
-
 .center{
     display: flex;
     align-items: center;
     justify-content:center;
 }
-
 .link-left{
     margin-right: 100px;
 }
-
 .link-right{
     margin-left: 100px;
 }
-
 @media (min-width: 200px) {
     
     .heading-sm{
         display: none;
     }
-
 }
-
-
-
 .callout-container{
     height: 100vh;
-
     background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top left ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content:center;
-
     position: relative;
     top: -100px;
-
    
 }
-
-
-
-
-
-
 .albums{
     margin-top: -100px;
     padding-top: 200px;
@@ -108,7 +76,6 @@
     background-size: cover;
     
 }
-
 .albumcol{
     background-color: rgba(0, 0, 0, 0);
     height: 400px;
@@ -116,7 +83,6 @@
     align-items: center;
     justify-content:center;
 }
-
 .picone{
     height: 300px;
     width: 300px;
@@ -332,7 +298,34 @@ body{
     
 /* ---------------------------------------about sm */
 
-    
+
+    .about-text-center{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width:75%;
+    }
+
+    .about-heading{
+        font-family: Russo One;
+        font-size: 200%;
+        letter-spacing: 3px;
+        color: white;
+    }
+
+    .about-text{
+        font-family: Exo;
+        text-align: center;
+        margin: auto;
+        font-size: 90%;
+        letter-spacing: 2px;
+        color: rgba(255, 255, 255, 0.705);
+        padding-bottom: 30px;
+    }
+
+    .redimg{
+        height: 90%;
+    }
 
 }
 
@@ -407,7 +400,7 @@ body{
     .picone{
         height: 300px;
         width: 300px;
-        background: url('../images/NJ3fGAR.jpg') no-repeat center;
+        background: url('../images/Tron_Legacy_Soundtrack.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -427,7 +420,7 @@ body{
     .picthree{
         height: 300px;
         width: 300px;
-        background: url('C:/Work/code institute/DAFT-PUNK-/assets/images/Daft_Punk_-_Discovery.jpg') no-repeat center;
+        background: url('../images/Daft_Punk_-_Discovery.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -437,7 +430,31 @@ body{
 
     /* ---------------------------------------about md */
 
+    .about-text-center{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        width:75%;
+    }
 
+    .about-heading{
+        font-family: Russo One;
+        font-size: 200%;
+        letter-spacing: 3px;
+        color: white;
+    }
+
+    .about-text{
+        font-family: Exo;
+        font-size: 80%;
+        text-align: left; 
+        letter-spacing: 2px;
+        color: rgba(255, 255, 255, 0.705);
+    }
+
+    .redimg{
+        height: 300px;
+    }
     
    
 }
@@ -481,7 +498,7 @@ body{
 
     
     
-    .about-text{
+    .about-text-center{
         display: flex;
         align-items: center;
         justify-content:center;
@@ -500,6 +517,14 @@ body{
         font-size: 100%;
         letter-spacing: 2px;
         color: rgba(255, 255, 255, 0.705);
+    }
+
+    .redimg{
+        height: 400px;
+    }
+
+    .about-div{
+        margin-bottom: 100px;
     }
    
 }
