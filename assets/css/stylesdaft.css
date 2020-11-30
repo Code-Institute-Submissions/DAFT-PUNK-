@@ -17,6 +17,14 @@ body{
     font-size: 300%;
 }
 
+.white{
+    color: white;
+}
+
+.black{
+    color: black;
+}
+
 
 
 .navbar {
@@ -61,6 +69,46 @@ body{
     align-items: center;
     justify-content:center;
 }
+
+
+/* ---------------------------------------buttons */
+
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: solid 2px rgb(44, 44, 44);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(56, 56, 56);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .special{
+    margin-top: 15px;
+    
+  }
+  
+  .button1{
+    background-color: transparent;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    
+  }
+  
+  .button1:hover{
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    letter-spacing: 3px;
+    
+  }
+  
 
 
 @media (min-width: 200px) {
@@ -150,7 +198,6 @@ body{
         font-family: Russo One;
         letter-spacing: 3px;
         font-size: 30px;
-        color: white;
         text-align: center;
         padding-top: 150px;
     
@@ -248,10 +295,80 @@ body{
 
 /* ---------------------------------------merch sm */
 
+    .merch{
+        background-color: white;
+        
+    }
+
+
+    .img-shop-1{
+
+        height: 250px;
+        width: 250px;
+        background: url('../images/DAFT_PUNK_LOGO_TEE_01_grande.webp') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: auto;
+        
+    }
+
+    .img-shop-2{
+
+        height: 250px;
+        width: 250px;
+        background: url('../images/DAFT_PUNK_FLOCKED_CLAY_CREW_01_grande.webp') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: auto;
+        
+
+
+    }
+
+    .img-shop-3{
+
+        height: 250px;
+        width: 250px;
+        background: url('../images/DAFT_PUNK_PULLOVER_02_grande.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: auto;
+        border: solid 2px white;
+        
+    }
+
+    .merch-item{
+        text-align: center;
+    }
+    
+    .merch h2{
+        font-family: Russo One;
+        font-size: 20px;
+    }
+
+    .merch p{
+        font-family: Exo;
+        color: #00000066;
+    }
+
+    .merch h1{
+        padding-bottom: 50px;
+        padding-top: -100px ;
+
+    }
 
     
 
-}
+
+    
+
+
 
 @media (min-width: 580px) {
 
@@ -320,7 +437,6 @@ body{
         font-family: Russo One;
         letter-spacing: 3px;
         font-size: 60px;
-        color: white;
         text-align: center;
         padding-bottom: 40px;
         display: flex;
@@ -450,9 +566,38 @@ body{
 
     .recent{
         background-color: black;
+        padding-bottom: 100px;
         
     }
-    
+
+
+/* ---------------------------------------merch md */
+
+
+    .img-shop-1{
+
+        height: 200px;
+        width: 200px;  
+    }
+
+    .img-shop-2{
+
+        height: 200px;
+        width: 200px;
+    }
+
+    .img-shop-3{
+
+        height: 200px;
+        width: 200px;   
+    }
+
+    .merch{
+        background-color: white;
+        padding-top: 50px;
+        padding-bottom: 200px;
+    }
+   
    
 }
 
@@ -514,7 +659,6 @@ body{
         font-family: Russo One;
         letter-spacing: 3px;
         font-size: 60px;
-        color: white;
         text-align: center;
         padding-bottom: 40px;
         display: flex;
@@ -626,6 +770,33 @@ body{
         margin-top: 200px;
         margin-bottom: 200px;
     }
+
+/* ---------------------------------------merch lg */
+
+    .img-shop-1{
+
+        height: 250px;
+        width: 250px;  
+    }
+
+    .img-shop-2{
+
+        height: 250px;
+        width: 250px;
+    }
+
+    .img-shop-3{
+
+        height: 250px;
+        width: 250px;   
+    }
+
+    .merch{
+        background-color: white;
+        padding-top: 100px;
+        padding-bottom: 200px;
+    }
+   
    
 }
 
