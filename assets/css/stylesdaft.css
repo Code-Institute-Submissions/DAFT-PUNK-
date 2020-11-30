@@ -1,213 +1,8 @@
 
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-.heading{
-    font-family: Anton;
-    font-size: 300%;
-}
-.navbar {
-    background-color: rgba(0, 0, 0, 0);
-    color: white;
-   
-}
-.navbar.trigger {
-    transition: 750ms ease;
-    background: black !important;
-    color: white;
-   
-}
-.navbar a {
-    
-    color: white;
-   
-}
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
-    color: rgba(255, 255, 255, 0.9);
-}
-.navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 4px;
-    line-height: inherit;
-    white-space: nowrap;
-}
-.center{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-.link-left{
-    margin-right: 100px;
-}
-.link-right{
-    margin-left: 100px;
-}
-@media (min-width: 200px) {
-    
-    .heading-sm{
-        display: none;
-    }
-}
-.callout-container{
-    height: 100vh;
-    background: url('C:/Work/code institute/daft punk website/daft-punk.jpg') no-repeat top left ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    position: relative;
-    top: -100px;
-   
-}
-.albums{
-    margin-top: -100px;
-    padding-top: 200px;
-    background-color: black;
-    height: 100vh;
-    background: url('C:/Work/code institute/daft punk website/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-}
-.albumcol{
-    background-color: rgba(0, 0, 0, 0);
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content:center;
-}
-.picone{
-    height: 300px;
-    width: 300px;
-    background: url('C:/Work/code institute/daft punk website/NJ3fGAR.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 1px solid #363636;
-}
-.pictwo{
-    height: 350px;
-    width: 350px;
-    background: url('C:/Work/code institute/daft punk website/MUS000377957_600x.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 1px solid #363636;
-}
-.picthree{
-    height: 300px;
-    width: 300px;
-    background: url('C:/Work/code institute/daft punk website/MUS000358761_600x.jpg') no-repeat center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    border: 1px solid #363636;
-} */
-
-
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=NTR&family=Overpass&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Work+Sans:wght@300&display=swap');
-
-/* ------------------------------------------- btns */
-.button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    vertical-align: middle;
-    font-weight: 500;
-    letter-spacing: 2px;
-    border: solid 2px rgb(44, 44, 44);
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(56, 56, 56);
-    transition-duration: 0.4s;
-    cursor: pointer;
-  }
-
-  
-  .button1{
-    background-color: transparent;
-    border: 2px solid white;
-    color: white;
-    letter-spacing: 3px;
-    margin-top: 30px;
-  }
-
-  .button-p{
-      text-align: center;
-  }
-  
-  .button1:hover{
-    background-color: white;
-    border: 2px solid white;
-    color: black;
-    letter-spacing: 3px;
-    margin-top: 30px;
-  }
-  
-  .button2{
-    background-color: transparent;
-    border: 2px solid #505050;
-    color:#505050;
-    letter-spacing: 3px;
-    
-  }
-  
-  .button2:hover{
-    background-color: #494949;
-    border: 2px solid #494949;
-    color: #eeeeee;
-    letter-spacing: 3px;
-    
-  }
-  
-  .button2:active{
-    background-color: #616161;
-    border: 2px solid #616161;
-    color: #eeeeee;
-    letter-spacing: 3px;
-    
-  }
-
-  .button3{
-    background-color: transparent;
-    border: 2px solid #505050;
-    color:#505050;
-    letter-spacing: 3px;
-    padding-top: 12px;
-  }
-
-  .button3:hover{
-    background-color: #494949;
-    border: 2px solid #494949;
-    color: #eeeeee;
-    letter-spacing: 3px;
-    padding-top: 12px;
-  }
-
-  .button2:active{
-    background-color: #616161;
-    border: 2px solid #616161;
-    color: #eeeeee;
-    letter-spacing: 3px;
-    
-  }
-
-
 
 
 /* ---------------------------------------nav */
@@ -342,7 +137,7 @@ body{
 
     .albums{
         margin-top: -100px;
-        padding-top: 00px;
+        margin-bottom: 100px;
         background-color: rgb(0, 0, 0);
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -363,49 +158,56 @@ body{
     
     .albumcol{
         background-color: rgba(0, 0, 0, 0);
-        height: 500px;
+        height: 300px;
         display: flex;
         align-items: center;
         justify-content:center;
     }
     
     .picone{
-        height: 300px;
-        width: 300px;
-        background: url('../images/NJ3fGAR.jpg') no-repeat center;
+        height: 250px;
+        width: 250px;
+        background: url('../images/Tron_Legacy_Soundtrack.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
-        margin-bottom: -50px;
+       
+        position: absolute;
     }
     
     .pictwo{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
         background: url('../images/MUS000377957_600x.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
-        margin-bottom: -50px;
+        
+        position: absolute;
+        
     }
     
     .picthree{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
         background: url('../images/MUS000358761_600x.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
-        padding-top: -50px;
+        
+        position: absolute;
     }
+
     
-/* ---------------------------------------about sm */
+
+    
+/* ---------------------------------------about-recent sm */
 
 
     .about-text-center{
@@ -438,6 +240,11 @@ body{
         align-items: center;
         justify-content:center;
     }
+    
+    .recent{
+        background-color: rgb(29 29 29);
+        padding-top: 50px;
+    }
 
 /* ---------------------------------------merch sm */
 
@@ -447,6 +254,9 @@ body{
 }
 
 @media (min-width: 580px) {
+
+
+/* ---------------------------------------nav md */
 
     .navbar{
         background-color: transparent;
@@ -497,7 +307,7 @@ body{
         margin-top: -100px;
         
         background-color: black;
-        height: 100vh;
+        height:70vh;
         background: url('../images/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -528,8 +338,8 @@ body{
     }
     
     .picone{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         background: url('../images/Tron_Legacy_Soundtrack.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -538,8 +348,8 @@ body{
         border: 1px solid #363636;
     }
     .pictwo{
-        height: 350px;
-        width: 350px;
+        height: 250px;
+        width: 250px;
         background: url('../images/MUS000377957_600x.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -548,8 +358,8 @@ body{
         border: 1px solid #363636;
     }
     .picthree{
-        height: 300px;
-        width: 300px;
+        height: 200px;
+        width: 200px;
         background: url('../images/Daft_Punk_-_Discovery.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
@@ -558,10 +368,56 @@ body{
         border: 1px solid #363636;
     }
 
+    .spotify-connect{
+        width: 100%;
+        height: 40px;
+        background-color: white;
+        padding-left: 10px;
+        text-align: left;
+        clear: both;
+        margin-top: 350px;
+        display: inline;
+        
+    }
+
+    .spotify-connect p{
+       
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-top: 10px;
+        float: left;
+        padding-left: 10px;
+        font-family:Russo One;
+        font-size: 15px;
+        
+    }
+
+    .iconplay{
+        display: inline;
+        padding-right: 10px;
+        float: right;
+        font-size: 20px;
+        align-items: center;
+        justify-content:center;
+        padding-top: 5px;
+        
+    }
+
+    .fa-play-circle:hover{
+        color: grey;
+        
+    }
+
+    .fa-spotify:hover{
+        color: grey;
+        
+    }
+
     
     
 
-    /* ---------------------------------------about md */
+    /* ---------------------------------------about-recent md */
 
     .about-text-center{
         display: flex;
@@ -591,6 +447,11 @@ body{
         align-items: center;
         justify-content:center;
     }
+
+    .recent{
+        background-color: black;
+        
+    }
     
    
 }
@@ -611,7 +472,7 @@ body{
     }
 
 
-    /* ---------------------------------------albums lg */
+    /* ---------------------------------------head lg */
    
     .callout-container{
         height: 100vh;
@@ -631,6 +492,100 @@ body{
     
        
     }
+
+
+/* ---------------------------------------albums lg */
+
+
+    .albums{
+        margin-top: -100px;
+        background-color: black;
+        height: 80vh;
+        padding-bottom: 800px;
+        background: url('../images/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        
+    }
+
+    .heading-albums{
+        font-family: Russo One;
+        letter-spacing: 3px;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
+    }
+    
+    .albumcol{
+        background-color: rgba(0, 0, 0, 0);
+        height: 400px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .picone{
+        height: 250px;
+        width: 250px;
+       
+        
+    }
+    .pictwo{
+        height: 300px;
+        width: 300px;
+        
+    }
+    .picthree{
+        height: 250px;
+        width: 250px;
+      
+    }
+
+    .spotify-connect{
+        width: 350px;
+        height: 50px;
+        background-color: white;
+        padding-left: 10px;
+        text-align: left;
+        clear: both;
+        margin-top: 500px;
+        display: inline;
+        
+    }
+
+    .spotify-connect p{
+       
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-top: 10px;
+        float: left;
+        padding-left: 10px;
+        font-family:Russo One;
+        font-size: 20px;
+        
+    }
+
+    .iconplay{
+        display: inline;
+        padding-right: 10px;
+        float: right;
+        font-size: 26px;
+        align-items: center;
+        justify-content:center;
+        padding-top: 5px;
+        
+    }
+
+    
+
 
     /* ---------------------------------------about lg */
 
@@ -672,6 +627,77 @@ body{
         margin-bottom: 200px;
     }
    
+}
+
+@media (min-width: 1450px) {
+
+
+     /* ---------------------------------------about xlg */
+
+    
+     .albums{
+        margin-top: -100px;
+        background-color: black;
+        height: 100vh;
+       
+        
+    }
+
+    .picone{
+        height: 300px;
+        width: 300px;
+        
+    }
+    .pictwo{
+        height: 350px;
+        width: 350px;
+        
+    }
+    .picthree{
+        height: 300px;
+        width: 300px;
+       
+    }
+
+
+    .spotify-connect{
+        width: 350px;
+        height: 50px;
+        background-color: white;
+        padding-left: 10px;
+        text-align: left;
+        clear: both;
+        margin-top: 500px;
+        display: inline;
+        
+    }
+
+    .spotify-connect p{
+       
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-top: 10px;
+        float: left;
+        padding-left: 10px;
+        font-family:Russo One;
+        font-size: 20px;
+        
+    }
+
+    .iconplay{
+        display: inline;
+        padding-right: 10px;
+        float: right;
+        font-size: 26px;
+        align-items: center;
+        justify-content:center;
+        padding-top: 5px;
+        
+    }
+
+    
+
 }
 
 
