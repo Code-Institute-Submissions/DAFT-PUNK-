@@ -118,6 +118,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=NTR&family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Work+Sans:wght@300&display=swap');
+
+/* ------------------------------------------- btns */
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: middle;
+    font-weight: 500;
+    letter-spacing: 2px;
+    border: solid 2px rgb(44, 44, 44);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(56, 56, 56);
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  
+  .button1{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    letter-spacing: 3px;
+    margin-top: 30px;
+  }
+
+  .button-p{
+      text-align: center;
+  }
+  
+  .button1:hover{
+    background-color: white;
+    border: 2px solid white;
+    color: black;
+    letter-spacing: 3px;
+    margin-top: 30px;
+  }
+  
+  .button2{
+    background-color: transparent;
+    border: 2px solid #505050;
+    color:#505050;
+    letter-spacing: 3px;
+    
+  }
+  
+  .button2:hover{
+    background-color: #494949;
+    border: 2px solid #494949;
+    color: #eeeeee;
+    letter-spacing: 3px;
+    
+  }
+  
+  .button2:active{
+    background-color: #616161;
+    border: 2px solid #616161;
+    color: #eeeeee;
+    letter-spacing: 3px;
+    
+  }
+
+  .button3{
+    background-color: transparent;
+    border: 2px solid #505050;
+    color:#505050;
+    letter-spacing: 3px;
+    padding-top: 12px;
+  }
+
+  .button3:hover{
+    background-color: #494949;
+    border: 2px solid #494949;
+    color: #eeeeee;
+    letter-spacing: 3px;
+    padding-top: 12px;
+  }
+
+  .button2:active{
+    background-color: #616161;
+    border: 2px solid #616161;
+    color: #eeeeee;
+    letter-spacing: 3px;
+    
+  }
+
+
 
 
 /* ---------------------------------------nav */
@@ -219,6 +309,10 @@ body{
         
     }
 
+    nav{
+        padding-left: none;
+    }
+
 /* ---------------------------------------header sm */
 
 
@@ -256,6 +350,16 @@ body{
         background-size: cover;
         
     }
+
+    .heading-albums{
+        font-family: Russo One;
+        letter-spacing: 3px;
+        font-size: 30px;
+        color: white;
+        text-align: center;
+        padding-top: 150px;
+    
+    }
     
     .albumcol{
         background-color: rgba(0, 0, 0, 0);
@@ -266,34 +370,39 @@ body{
     }
     
     .picone{
-        height: 50%;
-        width: 100%;
+        height: 300px;
+        width: 300px;
         background: url('../images/NJ3fGAR.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
+        margin-bottom: -50px;
     }
+    
     .pictwo{
-        height: 50%;
-        width: 120%;
+        height: 300px;
+        width: 300px;
         background: url('../images/MUS000377957_600x.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
+        margin-bottom: -50px;
     }
+    
     .picthree{
-        height: 50%;
-        width: 100%;
+        height: 300px;
+        width: 300px;
         background: url('../images/MUS000358761_600x.jpg') no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
+        padding-top: -50px;
     }
     
 /* ---------------------------------------about sm */
@@ -324,8 +433,16 @@ body{
     }
 
     .redimg{
-        height: 90%;
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
     }
+
+/* ---------------------------------------merch sm */
+
+
+    
 
 }
 
@@ -378,7 +495,7 @@ body{
 
     .albums{
         margin-top: -100px;
-        padding-top: 200px;
+        
         background-color: black;
         height: 100vh;
         background: url('../images/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
@@ -387,6 +504,19 @@ body{
         -o-background-size: cover;
         background-size: cover;
         
+    }
+
+    .heading-albums{
+        font-family: Russo One;
+        letter-spacing: 3px;
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        padding-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    
     }
     
     .albumcol{
@@ -428,6 +558,9 @@ body{
         border: 1px solid #363636;
     }
 
+    
+    
+
     /* ---------------------------------------about md */
 
     .about-text-center{
@@ -453,7 +586,10 @@ body{
     }
 
     .redimg{
-        height: 300px;
+        width: 400px;
+        display: flex;
+        align-items: center;
+        justify-content:center;
     }
     
    
@@ -462,6 +598,9 @@ body{
 @media (min-width: 1000px) {
 
     /* ---------------------------------------nav lg */
+
+
+    
 
     .link-left{
         margin-right: 100px;
@@ -525,6 +664,12 @@ body{
 
     .about-div{
         margin-bottom: 100px;
+        margin-top: 100px;
+    }
+
+    .recent{
+        margin-top: 200px;
+        margin-bottom: 200px;
     }
    
 }
