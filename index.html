@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/stylesdaft.css">
+
     
 </head>
 
@@ -71,6 +72,16 @@
                     <p><button class="button button2" data-toggle="modal" data-target="">MERCH</button></p>
                     
                 </section>
+                <section class="down">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-6 offset-3">
+                                <p>Click to learn more about Daft Punk</p>
+                                <i class="fas fa-angle-double-down"></i>
+                            </div>
+                        </div>
+                    </div>
+                </section>
             </div>
         </div>
         <!-- /.callout -->
@@ -116,8 +127,8 @@
                 <div class="spotify-connect">
                     <p>Play the album</p>
                     <div class="iconplay">
-                        <i class="fab fa-spotify"></i>
-                    <i class="fas fa-play-circle"></i>
+                        <i onclick="openSpotifyDaftPunk()" class="fab fa-spotify"></i>
+                    <i   onclick="openForm()" class="fas fa-play-circle"></i>
                     </div>
                 </div>
             </div>
@@ -130,6 +141,30 @@
     </div>
 
 </section>
+
+<!-- popup play music -->
+
+<div class="loginPopup">
+    <div class="formPopup" id="popupForm">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 offset-sm-0 col-md-4 offset-md-4  playaudio">
+                    <h2>PLAY RANDOM ACCES MEMORIES</h2>
+                    <audio controls class="audioplayer">
+                        <source src="assets\images\01 - Give life back to music (1).mp3" type="audio/mpeg">
+                      Your browser does not support the audio element.
+                      </audio>
+                  <button type="button" class="btn cancel button button2 special" onclick="closeForm()">CLOSE</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  </div>
+
+  <!-- recent years -->
+
+
 <section>
     <div class="container about-div recent">
         <div class="row row-cols-1 row-cols-sm-1 row-cols-md-1 row-cols-lg-2 row-cols-xl-2">
@@ -148,6 +183,8 @@
     </div>
 </section>
 
+<!-- merch -->
+
 <section class="merch">
     <div class="">
         <div class="container container-fluid">
@@ -162,7 +199,7 @@
                         <div class="img-shop-1"></div>
                         <h2>DAFT PUNK T</h2>
                         <p>Cick below to visit DAFTPUNK.com</p>
-                        <button class="button button1" onclick="daftWebsite()" target="_blank">VISIT</button>
+                        <button class="button button1" onclick="daftWebsiteT()" target="_blank">VISIT</button>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 merch-whole-itm">
@@ -170,7 +207,7 @@
                         <div class="img-shop-2"></div>
                         <h2 >DAFT PUNK SWEAT</h2>
                         <p>Cick below to visit DAFTPUNK.com</p>
-                        <button class="button button1" onclick="daftWebsite()">VISIT</button>
+                        <button class="button button1" onclick="daftWebsiteJ()">VISIT</button>
                     </div>
                 </div>
                 <div class="col-md-4 col-lg-4 merch-whole-itm">
@@ -178,7 +215,7 @@
                         <div class="img-shop-3"></div>
                         <h2>DAFT PUNK HOODIE</h2>
                         <p>Cick below to visit DAFTPUNK.com</p>
-                        <button class="button button1" onclick="daftWebsite()">VISIT</button>
+                        <button class="button button1" onclick="daftWebsiteH()">VISIT</button>
                     </div>
                 </div>
             </div>
@@ -199,9 +236,37 @@
         $('nav').toggleClass('trigger', $(this).scrollTop() > 100);
         });
 
-        function daftWebsite(){
-            window.location = "https://daftpunk.com/collections/shop-by-product/products/mens-classic-logo-tee"
+        function daftWebsiteT(){
+           
+            window.open("https://daftpunk.com/collections/shop-by-product/products/mens-classic-logo-tee",'_blank');
         }
+
+        function daftWebsiteJ(){
+           
+           
+           window.open("https://daftpunk.com/collections/shop-by-product/products/crewneck-logo-sweatshirt-oatmeal",'_blank')
+       }
+
+       function daftWebsiteH(){
+           
+           window.open("https://daftpunk.com/collections/shop-by-product/products/classic-logo-zip-hoodie",'_blank');
+       }
+
+
+       function openSpotifyDaftPunk(){
+
+        window.open("https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa?si=KaeUxYnaTkuVn-RUMZtEIA",'_blank');
+       }
+
+       function openForm() {
+        document.getElementById("popupForm").style.display = "block";
+      }
+      function closeForm() {
+        document.getElementById("popupForm").style.display = "none";
+      }
+
+
+        
     </script>
 </body>
 

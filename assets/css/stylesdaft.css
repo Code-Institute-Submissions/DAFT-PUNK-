@@ -41,6 +41,10 @@ body{
     color: black;
 }
 
+.down{
+    position: absolute;
+    bottom: 0%;
+}
 
 
 .navbar {
@@ -105,7 +109,7 @@ body{
   }
 
   .special{
-    margin-top: 15px;
+    margin: auto;
     
   }
   
@@ -140,7 +144,47 @@ body{
     letter-spacing: 3px;
     
   }
+
+
+
+
+/* ---------------------------------------popup play music*/
+
+
+  /* * {
+    box-sizing: border-box;
+  }
   
+  .loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  .formPopup {
+    display: none;
+    position: fixed;
+    left:10%;
+    top: 20%;
+    bottom: 10%;
+    right: 10%;
+    border: none;
+    z-index: 9;
+    background-color:black;
+    border: 2px solid white;
+  }
+
+  .playaudio{
+    padding-top: 200px;
+    font-family: Anton;
+    color: white;
+    
+  }
+
+  .audioplayer{
+      margin-top: 30px;
+      margin-bottom: 30px;
+  }
+   */
 
 
 @media (min-width: 200px) {
@@ -282,9 +326,93 @@ body{
         
         position: absolute;
     }
+    .spotify-connect{
+        width: 50%;
+        height: 40px;
+        background-color: white;
+        padding-left: 10px;
+        text-align: left;
+        clear: both;
+        margin-top: 270px;
+        display: inline;
+        
+        
+    }
 
+    .spotify-connect p{
+       
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        padding-top: 16px;
+        float: left;
+        padding-left: 10px;
+        font-family:Russo One;
+        font-size: 12px;
+        
+    }
+
+    .iconplay{
+        display: inline;
+        padding-right: 10px;
+        float: right;
+        font-size: 20px;
+        align-items: center;
+        justify-content:center;
+        padding-top: 10px;
+        
+    }
+
+    .fa-play-circle:hover{
+        color: grey;
+        
+    }
+
+    .fa-spotify:hover{
+        color: grey;
+        
+    }
+
+
+/* ---------------------------------------media player sm */
     
+    * {
+        box-sizing: border-box;
+      }
+      
+      .loginPopup {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .formPopup {
+        display: none;
+        position: fixed;
+        left:10%;
+        top: 20%;
+        bottom: 10%;
+        right: 10%;
+        border: none;
+        z-index: 9;
+        background-color:black;
+        border: 2px solid white;
+      }
+    
+      .playaudio{
+        padding-top: 150px;
+        font-family: Anton;
+        color: white;
+        
+      }
+    
+      .audioplayer{
+          margin-top: 30px;
+          margin-bottom: 30px;
+          width: 95%;
+          
 
+      }
+      
     
 /* ---------------------------------------about-recent sm */
 
@@ -556,19 +684,44 @@ body{
         
     }
 
-    .fa-play-circle:hover{
-        color: grey;
-        
-    }
-
-    .fa-spotify:hover{
-        color: grey;
-        
-    }
-
-
-
     
+/* ---------------------------------------media player md */
+
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .loginPopup {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .formPopup {
+        display: none;
+        position: fixed;
+        left:10%;
+        top: 20%;
+        bottom: 10%;
+        right: 10%;
+        border: none;
+        z-index: 9;
+        background-color:black;
+        border: 2px solid white;
+      }
+    
+      .playaudio{
+        padding-top: 200px;
+        font-family: Anton;
+        color: white;
+        
+      }
+    
+      .audioplayer{
+          margin-top: 30px;
+          margin-bottom: 30px;
+          width: 100%;
+      } 
     
 
     /* ---------------------------------------about-recent md */
@@ -834,6 +987,43 @@ body{
         padding-top: 100px;
         padding-bottom: 200px;
     }
+
+/* ---------------------------------------audio player lg */
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      .loginPopup {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .formPopup {
+        display: none;
+        position: fixed;
+        left:10%;
+        top: 20%;
+        bottom: 10%;
+        right: 10%;
+        border: none;
+        z-index: 9;
+        background-color:black;
+        border: 2px solid white;
+      }
+    
+      .playaudio{
+        padding-top: 200px;
+        font-family: Anton;
+        color: white;
+        
+      }
+    
+      .audioplayer{
+          margin-top: 30px;
+          margin-bottom: 30px;
+          width: 100%;
+      } 
    
    
 }
