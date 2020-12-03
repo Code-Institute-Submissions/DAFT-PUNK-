@@ -14,10 +14,6 @@ html{
     scroll-behavior: smooth;
 }
 
-#about{
-    padding-top: -100px;
-}
-
 body{
     background: black;
 }
@@ -43,7 +39,6 @@ body{
 }
 
 
-
 .nav-link{
     font-family: Exo;
 }
@@ -62,9 +57,6 @@ body{
 }
 
 
-
-
-
 .navbar {
     background-color: rgba(0, 0, 0, 0);
     color: white;
@@ -78,7 +70,6 @@ body{
     color: white;
    
 }
-
 
 
 .navbar a {

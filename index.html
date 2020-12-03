@@ -61,7 +61,7 @@
                  <section class="callout jumbotron text-center">
                     <h1 class="jumbotron-header">DAFT PUNK</h1>
                     <hr class="block-divider">
-                    <p class="lead">Looking for some official DAFT PUNK merch.
+                    <p class="lead">Looking for some official DAFT PUNK merch ?
                     <p><a href="#merch"><button class="button button2" >MERCH</button></a></p>
                     
                 </section>
@@ -130,8 +130,8 @@
                 <div class="spotify-connect">
                     <p>Play the album</p>
                     <div class="iconplay">
-                        <i onclick="openSpotifyDaftPunk()" class="fab fa-spotify"></i>
-                    <i   onclick="openForm()" class="fas fa-play-circle"></i>
+                        <i alt='play album in spotify' onclick="openSpotifyDaftPunk()" class="fab fa-spotify"></i>
+                        <i alt='Play intro to album on this website' onclick="openForm()" class="fas fa-play-circle"></i>
                     </div>
                 </div>
             </div>
@@ -147,12 +147,14 @@
 
 <!-- popup play music -->
 
+<!-- credit  to ww3 schools for form popup https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_popup_form -->
 <div class="loginPopup">
     <div class="formPopup" id="popupForm">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 offset-sm-0 col-md-4 offset-md-4  playaudio">
-                    <h2>PLAY RANDOM ACCES MEMORIES</h2>
+                    <h2>PLAY RANDOM ACCESS MEMORIES<p>TRACK 1</p></h2>
+                    <!-- credit to ww3 schools for audio player https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_audio_all -->
                     <audio controls class="audioplayer">
                         <source src="assets\images\01 - Give life back to music (1).mp3" type="audio/mpeg">
                       Your browser does not support the audio element.
@@ -257,6 +259,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script>
+
+        // credit code for transparent to black nav javascript from System 22 I.T. Solutions youtube vidio  https://www.youtube.com/channel/UCYeyetu9B2QYrHAjJ5umN1Q
         $(window).scroll(function(){
         $('nav').toggleClass('trigger', $(this).scrollTop() > 100);
         });
@@ -282,6 +286,8 @@
 
         window.open("https://open.spotify.com/album/4m2880jivSbbyEGAKfITCa?si=KaeUxYnaTkuVn-RUMZtEIA",'_blank');
        }
+
+    // credit to ww3 schools for media popup 
 
        function openForm() {
         document.getElementById("popupForm").style.display = "block";
