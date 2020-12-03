@@ -1,105 +1,91 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Work+Sans:wght@300&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Work+Sans:wght@300&display=swap");
 
 /* ---------------------------------------general */
 
-
-
-html{
-
+html {
     scroll-behavior: smooth;
 }
 
-body{
+body {
     background: black;
 }
 
-.jumbotron{
+.jumbotron {
     background-color: rgba(0, 0, 0, 0);
     color: white;
-    
 }
 
-.opaque-overlay{
+.opaque-overlay {
     position: absolute;
     left: 0;
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-.heading{
+.heading {
     font-family: Anton;
     font-size: 300%;
 }
 
-
-.nav-link{
+.nav-link {
     font-family: Exo;
 }
 
-.block-divider{
+.block-divider {
     width: 50px;
     border: 2px solid rgb(255, 255, 255);
 }
 
-.white{
+.white {
     color: white;
 }
 
-.black{
+.black {
     color: black;
 }
-
 
 .navbar {
     background-color: rgba(0, 0, 0, 0);
     color: white;
-   
 }
 
 .navbar.trigger {
-
     transition: 750ms ease;
     background: black !important;
     color: white;
-   
 }
-
 
 .navbar a {
-    
     color: white;
-   
 }
 
-
-.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.9);
-
 }
 
 .navbar-brand {
     display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
     margin-right: 4px;
     line-height: inherit;
     white-space: nowrap;
 }
 
-.center{
+.center {
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 
-.footer{
+.footer {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
@@ -107,10 +93,27 @@ body{
     font-family: Exo;
 }
 
+.footerlinks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footerlinks i{
+    font-size: 20px;
+}
+
+.footerlinks a{
+    color: white;
+}
 
 /* ---------------------------------------buttons */
 
-.button{
+.button {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 15px;
@@ -123,162 +126,135 @@ body{
     color: rgb(56, 56, 56);
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
 
-  .special{
+.special {
     margin: auto;
-    
-  }
-  
-  .button1{
+}
+
+.button1 {
     background-color: transparent;
     border: 2px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     letter-spacing: 3px;
-    
-  }
-  
-  .button1:hover{
+}
+
+.button1:hover {
     background-color: rgb(0, 0, 0);
     border: 2px solid rgb(0, 0, 0);
     color: rgb(255, 255, 255);
     letter-spacing: 3px;
-    
-  }
+}
 
-  .button2{
+.button2 {
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
     color: rgb(255, 255, 255);
     letter-spacing: 3px;
-    
-  }
-  
-  .button2:hover{
+}
+
+.button2:hover {
     background-color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     letter-spacing: 3px;
-    
-  }
-
-
-
-
-
-
-
-  
-
+}
 
 @media (min-width: 200px) {
+    /* ---------------------------------------nav sm */
 
-
-/* ---------------------------------------nav sm */
-    
-    .heading-sm{
+    .heading-sm {
         display: block !important;
     }
 
-    .navbar{
+    .navbar {
         background-color: black;
-
     }
 
-    .heading-sm{
+    .heading-sm {
         font-family: Anton;
         font-size: 150%;
     }
-
 
     .navbar-toggler-icon {
         color: rgb(255, 255, 255);
         z-index: 3;
         display: flex;
         align-items: center;
-        justify-content:center;
-    
+        justify-content: center;
     }
 
-    .navbar-toggler:hover, 
+    .navbar-toggler:hover,
     .navbar-toggler:active,
     .navbar-toggler:focus,
-    .navbar-toggler:focus-visible{
-        padding: .25rem .75rem;
+    .navbar-toggler:focus-visible {
+        padding: 0.25rem 0.75rem;
         line-height: 1;
         background-color: #ffffff00;
         border: 1px solid #ffffff00;
-        border-radius: .25rem;
-        
+        border-radius: 0.25rem;
     }
 
-    nav{
+    nav {
         padding-left: none;
     }
 
-/* ---------------------------------------header sm */
+    /* ---------------------------------------header sm */
 
-
-    .callout-container{
+    .callout-container {
         height: 100vh;
-    
-        background: url('../images/daft-punk.jpg') no-repeat top center ;
+
+        background: url("../images/daft-punk-front-page-pic.jpg") no-repeat top center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    
+
         display: flex;
         align-items: center;
-        justify-content:center;
-    
+        justify-content: center;
+
         position: relative;
         top: -100px;
-    
-       
     }
 
-    .fa-angle-double-down{
+    .fa-angle-double-down {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: white;
         font-size: 30px;
     }
 
-    .down{
+    .down {
         text-align: center;
         position: relative;
         top: 0%;
-
     }
 
-    .down p{
+    .down p {
         padding-bottom: 70px;
         color: rgba(255, 255, 255, 0.836);
         font-family: Exo;
-
+        font-size: 80%;
     }
 
-    .jumbotron{
-        margin-top:150px;
+    .jumbotron {
+        margin-top: 150px;
     }
 
-    .jumbotron-header{
+    .jumbotron-header {
         font-family: Russo One;
         font-size: 60px;
     }
 
+    /* ---------------------------------------albums sm */
 
-
-/* ---------------------------------------albums sm */
-
-
-
-    .albums{
+    .albums {
         margin-top: -100px;
         margin-bottom: 100px;
         background-color: rgb(0, 0, 0);
@@ -286,66 +262,63 @@ body{
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
     }
 
-    .heading-albums{
+    .heading-albums {
         font-family: Russo One;
         letter-spacing: 3px;
         font-size: 30px;
         text-align: center;
         padding-top: 150px;
-    
     }
-    
-    .albumcol{
+
+    .albumcol {
         background-color: rgba(0, 0, 0, 0);
         height: 300px;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    
-    .picone{
+
+    .picone {
         height: 250px;
         width: 250px;
-        background: url('../images/Tron_Legacy_Soundtrack.jpg') no-repeat center;
+        background: url("../images/Tron_Legacy_Soundtrack.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
-       
+
         position: absolute;
     }
-    
-    .pictwo{
+
+    .pictwo {
         height: 250px;
         width: 250px;
-        background: url('../images/MUS000377957_600x.jpg') no-repeat center;
+        background: url("../images/random-access.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
-        
+
         position: absolute;
-        
     }
-    
-    .picthree{
+
+    .picthree {
         height: 250px;
         width: 250px;
-        background: url('../images/MUS000358761_600x.jpg') no-repeat center;
+        background: url("../images/daft-punk-album.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
-        
+
         position: absolute;
     }
-    .spotify-connect{
+    .spotify-connect {
         width: 50%;
         height: 40px;
         background-color: white;
@@ -354,103 +327,90 @@ body{
         clear: both;
         margin-top: 270px;
         display: inline;
-        
-        
     }
 
-    .spotify-connect p{
-       
+    .spotify-connect p {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 16px;
         float: left;
         padding-left: 10px;
-        font-family:Russo One;
+        font-family: Russo One;
         font-size: 12px;
-        
     }
 
-    .iconplay{
+    .iconplay {
         display: inline;
         padding-right: 10px;
         float: right;
         font-size: 20px;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 10px;
-        
     }
 
-    .fa-play-circle:hover{
+    .fa-play-circle:hover {
         color: grey;
-        
     }
 
-    .fa-spotify:hover{
+    .fa-spotify:hover {
         color: grey;
-        
     }
 
+    /* ---------------------------------------media player sm */
 
-/* ---------------------------------------media player sm */
-    
     * {
         box-sizing: border-box;
-      }
-      
-      .loginPopup {
+    }
+
+    .loginPopup {
         position: relative;
         text-align: center;
         width: 100%;
-      }
-      .formPopup {
+    }
+    .formPopup {
         display: none;
         position: fixed;
-        left:10%;
+        left: 10%;
         top: 20%;
         bottom: 10%;
         right: 10%;
         border: none;
         z-index: 9;
-        background-color:black;
+        background-color: black;
         border: 2px solid white;
-      }
-    
-      .playaudio{
+    }
+
+    .playaudio {
         padding-top: 150px;
         font-family: Anton;
         color: white;
-        
-      }
-    
-      .audioplayer{
-          margin-top: 30px;
-          margin-bottom: 30px;
-          width: 95%;
-          
-
-      }
-      
-    
-/* ---------------------------------------about-recent sm */
-
-
-    .about-text-center{
-        display: flex;
-        align-items: center;
-        justify-content:center;
-        width:75%;
     }
 
-    .about-heading{
+    .audioplayer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+
+    /* ---------------------------------------about-recent sm */
+
+    .about-text-center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 75%;
+    }
+
+    .about-heading {
         font-family: Russo One;
         font-size: 200%;
         letter-spacing: 3px;
         color: white;
     }
 
-    .about-text{
+    .about-text {
         font-family: Exo;
         text-align: center;
         margin: auto;
@@ -460,182 +420,160 @@ body{
         padding-bottom: 30px;
     }
 
-    .redimg{
+    .redimg {
         width: 300px;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    
-    .recent{
+
+    .recent {
         background-color: rgb(25 25 25);
         padding-top: 50px;
     }
 
-/* ---------------------------------------merch sm */
+    /* ---------------------------------------merch sm */
 
-    .merch{
+    .merch {
         background-color: white;
-        
     }
 
-
-    .img-shop-1{
-
+    .img-shop-1 {
         height: 250px;
         width: 250px;
-        background: url('../images/DAFT_PUNK_LOGO_TEE_01_grande.webp') no-repeat center;
+        background: url("../images/DAFT_PUNK_LOGO_TEE_01_grande.webp") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         margin: auto;
-        
     }
 
-    .img-shop-2{
-
+    .img-shop-2 {
         height: 250px;
         width: 250px;
-        background: url('../images/DAFT_PUNK_FLOCKED_CLAY_CREW_01_grande.webp') no-repeat center;
+        background: url("../images/DAFT_PUNK_FLOCKED_CLAY_CREW_01_grande.webp") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         margin: auto;
-        
-
-
     }
 
-    .img-shop-3{
-
+    .img-shop-3 {
         height: 250px;
         width: 250px;
-        background: url('../images/DAFT_PUNK_PULLOVER_02_grande.jpg') no-repeat center;
+        background: url("../images/DAFT_PUNK_PULLOVER_02_grande.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         margin: auto;
         border: solid 2px white;
-        
     }
 
-    .merch-item{
+    .merch-item {
         text-align: center;
     }
-    
-    .merch h2{
+
+    .merch h2 {
         font-family: Russo One;
         font-size: 20px;
     }
 
-    .merch p{
+    .merch p {
         font-family: Exo;
         color: #00000066;
     }
 
-    .merch h1{
+    .merch h1 {
         padding-bottom: 50px;
-        padding-top: -100px ;
-
+        padding-top: -100px;
     }
 
-    .merch-whole-itm{
+    .merch-whole-itm {
         padding-bottom: 100px;
     }
-
-    
-
-
-    
-
 }
 
 @media (min-width: 580px) {
+    /* ---------------------------------------nav md */
 
-
-/* ---------------------------------------nav md */
-
-    .navbar{
+    .navbar {
         background-color: transparent;
+    }
 
-    }
-    
-    .heading-sm{
-        display: none !important;
-    }
-    
-    #navbarNavDropdown{
+    .heading-sm {
         display: none !important;
     }
 
-    .link-left{
+    #navbarNavDropdown {
+        display: none !important;
+    }
+
+    .link-left {
         margin-right: 50px;
     }
 
-    .link-right{
+    .link-right {
         margin-left: 50px;
     }
 
-/* ---------------------------------------header md */
-   
-    .callout-container{
+    /* ---------------------------------------header md */
+
+    .callout-container {
         height: 100vh;
-    
-        background: url('../images/daft-punk.jpg') no-repeat top  ;
+
+        background: url("../images/daft-punk-front-page-pic.jpg") no-repeat top;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    
+
         display: flex;
         align-items: center;
-        justify-content:center;
-    
+        justify-content: center;
+
         position: relative;
         top: -100px;
-    
-       
     }
 
-    .fa-angle-double-down{
+    .fa-angle-double-down {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: white;
         font-size: 30px;
     }
 
-    .jumbotron-header{
+    .jumbotron-header {
         font-family: Russo One;
         font-size: 100px;
     }
 
-    
+    .down p {
+        font-size: 100%;
+    }
 
+    /* ---------------------------------------albums md */
 
-/* ---------------------------------------albums md */
-
-
-    .albums{
+    .albums {
         margin-top: -100px;
-        
+
         background-color: black;
-        height:70vh;
-        background: url('../images/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
+        height: 70vh;
+        background: url("../images/design-album.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
     }
 
-    .heading-albums{
+    .heading-albums {
         font-family: Russo One;
         letter-spacing: 3px;
         font-size: 60px;
@@ -643,42 +581,41 @@ body{
         padding-bottom: 40px;
         display: flex;
         align-items: center;
-        justify-content:center;
-    
+        justify-content: center;
     }
-    
-    .albumcol{
+
+    .albumcol {
         background-color: rgba(0, 0, 0, 0);
         height: 400px;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
-    
-    .picone{
+
+    .picone {
         height: 200px;
         width: 200px;
-        background: url('../images/Tron_Legacy_Soundtrack.jpg') no-repeat center;
+        background: url("../images/Tron_Legacy_Soundtrack.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
     }
-    .pictwo{
+    .pictwo {
         height: 250px;
         width: 250px;
-        background: url('../images/MUS000377957_600x.jpg') no-repeat center;
+        background: url("../images/random-access.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
         border: 1px solid #363636;
     }
-    .picthree{
+    .picthree {
         height: 200px;
         width: 200px;
-        background: url('../images/Daft_Punk_-_Discovery.jpg') no-repeat center;
+        background: url("../images/daft-punk-album.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -686,7 +623,7 @@ body{
         border: 1px solid #363636;
     }
 
-    .spotify-connect{
+    .spotify-connect {
         width: 100%;
         height: 40px;
         background-color: white;
@@ -695,211 +632,182 @@ body{
         clear: both;
         margin-top: 350px;
         display: inline;
-        
     }
 
-    .spotify-connect p{
-       
+    .spotify-connect p {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 10px;
         float: left;
         padding-left: 10px;
-        font-family:Russo One;
+        font-family: Russo One;
         font-size: 15px;
-        
     }
 
-    .iconplay{
+    .iconplay {
         display: inline;
         padding-right: 10px;
         float: right;
         font-size: 20px;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 5px;
-        
     }
 
-    
-/* ---------------------------------------media player md */
-
+    /* ---------------------------------------media player md */
 
     * {
         box-sizing: border-box;
-      }
-      
-      .loginPopup {
+    }
+
+    .loginPopup {
         position: relative;
         text-align: center;
         width: 100%;
-      }
-      .formPopup {
+    }
+    .formPopup {
         display: none;
         position: fixed;
-        left:10%;
+        left: 10%;
         top: 20%;
         bottom: 10%;
         right: 10%;
         border: none;
         z-index: 9;
-        background-color:black;
+        background-color: black;
         border: 2px solid white;
-      }
-    
-      .playaudio{
+    }
+
+    .playaudio {
         padding-top: 200px;
         font-family: Anton;
         color: white;
-        
-      }
-    
-      .audioplayer{
-          margin-top: 30px;
-          margin-bottom: 30px;
-          width: 100%;
-      } 
-    
+    }
+
+    .audioplayer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
 
     /* ---------------------------------------about-recent md */
 
-    .about-text-center{
+    .about-text-center {
         display: flex;
         align-items: center;
-        justify-content:center;
-        width:75%;
+        justify-content: center;
+        width: 75%;
     }
 
-    .about-heading{
+    .about-heading {
         font-family: Russo One;
         font-size: 200%;
         letter-spacing: 3px;
         color: white;
     }
 
-    .about-text{
+    .about-text {
         font-family: Exo;
         font-size: 80%;
-        text-align: left; 
+        text-align: left;
         letter-spacing: 2px;
         color: rgba(255, 255, 255, 0.705);
     }
 
-    .redimg{
+    .redimg {
         width: 400px;
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
     }
 
-    .recent{
+    .recent {
         background-color: black;
         padding-bottom: 100px;
-        
     }
 
+    /* ---------------------------------------merch md */
 
-/* ---------------------------------------merch md */
-
-
-    .img-shop-1{
-
-        height: 200px;
-        width: 200px;  
-    }
-
-    .img-shop-2{
-
+    .img-shop-1 {
         height: 200px;
         width: 200px;
     }
 
-    .img-shop-3{
-
+    .img-shop-2 {
         height: 200px;
-        width: 200px;   
+        width: 200px;
     }
 
-    .merch{
+    .img-shop-3 {
+        height: 200px;
+        width: 200px;
+    }
+
+    .merch {
         background-color: white;
         padding-top: 50px;
         padding-bottom: 200px;
     }
-   
-   
 }
 
 @media (min-width: 1000px) {
-
     /* ---------------------------------------nav lg */
 
-
-    
-
-    .link-left{
+    .link-left {
         margin-right: 100px;
     }
 
-    .link-right{
+    .link-right {
         margin-left: 100px;
     }
 
-
     /* ---------------------------------------head lg */
-   
-    .callout-container{
+
+    .callout-container {
         height: 100vh;
-    
-        background: url('../images/daft-punk.jpg') no-repeat top left ;
+
+        background: url("../images/daft-punk-front-page-pic.jpg") no-repeat top left;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-    
+
         display: flex;
         align-items: center;
-        justify-content:center;
-    
+        justify-content: center;
+
         position: relative;
         top: -100px;
-    
-       
     }
 
-    
-    .fa-angle-double-down{
+    .fa-angle-double-down {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         position: absolute;
-        top: 50%; left: 50%;
-        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         color: white;
         font-size: 30px;
     }
 
-    
+    /* ---------------------------------------albums lg */
 
-    
-
-/* ---------------------------------------albums lg */
-
-
-    .albums{
+    .albums {
         margin-top: -100px;
         background-color: black;
         height: 80vh;
         padding-bottom: 800px;
-        background: url('../images/d4afuhm-8a82a66f-f686-4549-8c22-7e1de469e1ef.jpg') no-repeat center;
+        background: url("../images/design-album.jpg") no-repeat center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        
     }
 
-    .heading-albums{
+    .heading-albums {
         font-family: Russo One;
         letter-spacing: 3px;
         font-size: 60px;
@@ -907,36 +815,31 @@ body{
         padding-bottom: 40px;
         display: flex;
         align-items: center;
-        justify-content:center;
-    
+        justify-content: center;
     }
-    
-    .albumcol{
+
+    .albumcol {
         background-color: rgba(0, 0, 0, 0);
         height: 400px;
         display: flex;
         align-items: center;
-        justify-content:center;
-    }
-    
-    .picone{
-        height: 250px;
-        width: 250px;
-       
-        
-    }
-    .pictwo{
-        height: 300px;
-        width: 300px;
-        
-    }
-    .picthree{
-        height: 250px;
-        width: 250px;
-      
+        justify-content: center;
     }
 
-    .spotify-connect{
+    .picone {
+        height: 250px;
+        width: 250px;
+    }
+    .pictwo {
+        height: 300px;
+        width: 300px;
+    }
+    .picthree {
+        height: 250px;
+        width: 250px;
+    }
+
+    .spotify-connect {
         width: 350px;
         height: 50px;
         background-color: white;
@@ -945,174 +848,149 @@ body{
         clear: both;
         margin-top: 500px;
         display: inline;
-        
     }
 
-    .spotify-connect p{
-       
+    .spotify-connect p {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 10px;
         float: left;
         padding-left: 10px;
-        font-family:Russo One;
+        font-family: Russo One;
         font-size: 20px;
-        
     }
 
-    .iconplay{
+    .iconplay {
         display: inline;
         padding-right: 10px;
         float: right;
         font-size: 26px;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 5px;
-        
     }
-
-    
-
 
     /* ---------------------------------------about lg */
 
-
-    
-    
-    .about-text-center{
+    .about-text-center {
         display: flex;
         align-items: center;
-        justify-content:center;
-        width:75%;
+        justify-content: center;
+        width: 75%;
     }
 
-    .about-heading{
+    .about-heading {
         font-family: Russo One;
         font-size: 200%;
         letter-spacing: 3px;
         color: white;
     }
 
-    .about-text{
+    .about-text {
         font-family: Exo;
         font-size: 100%;
         letter-spacing: 2px;
         color: rgba(255, 255, 255, 0.705);
     }
 
-    .redimg{
+    .redimg {
         height: 400px;
     }
 
-    .about-div{
+    .about-div {
         margin-bottom: 100px;
         margin-top: 100px;
     }
 
-    .recent{
+    .recent {
         margin-top: 200px;
         margin-bottom: 200px;
     }
 
-/* ---------------------------------------merch lg */
+    /* ---------------------------------------merch lg */
 
-    .img-shop-1{
-
-        height: 250px;
-        width: 250px;  
-    }
-
-    .img-shop-2{
-
+    .img-shop-1 {
         height: 250px;
         width: 250px;
     }
 
-    .img-shop-3{
-
+    .img-shop-2 {
         height: 250px;
-        width: 250px;   
+        width: 250px;
     }
 
-    .merch{
+    .img-shop-3 {
+        height: 250px;
+        width: 250px;
+    }
+
+    .merch {
         background-color: white;
         padding-top: 100px;
         padding-bottom: 200px;
     }
 
-/* ---------------------------------------audio player lg */
+    /* ---------------------------------------audio player lg */
 
     * {
         box-sizing: border-box;
-      }
-      
-      .loginPopup {
+    }
+
+    .loginPopup {
         position: relative;
         text-align: center;
         width: 100%;
-      }
-      .formPopup {
+    }
+    .formPopup {
         display: none;
         position: fixed;
-        left:10%;
+        left: 10%;
         top: 20%;
         bottom: 10%;
         right: 10%;
         border: none;
         z-index: 9;
-        background-color:black;
+        background-color: black;
         border: 2px solid white;
-      }
-    
-      .playaudio{
+    }
+
+    .playaudio {
         padding-top: 200px;
         font-family: Anton;
         color: white;
-        
-      }
-    
-      .audioplayer{
-          margin-top: 30px;
-          margin-bottom: 30px;
-          width: 100%;
-      } 
-   
-   
+    }
+
+    .audioplayer {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100%;
+    }
 }
 
 @media (min-width: 1450px) {
+    /* ---------------------------------------about xlg */
 
-
-     /* ---------------------------------------about xlg */
-
-    
-     .albums{
+    .albums {
         margin-top: -100px;
         background-color: black;
         height: 100vh;
-       
-        
     }
 
-    .picone{
+    .picone {
         height: 300px;
         width: 300px;
-        
     }
-    .pictwo{
+    .pictwo {
         height: 350px;
         width: 350px;
-        
     }
-    .picthree{
+    .picthree {
         height: 300px;
         width: 300px;
-       
     }
 
-
-    .spotify-connect{
+    .spotify-connect {
         width: 350px;
         height: 50px;
         background-color: white;
@@ -1121,35 +999,26 @@ body{
         clear: both;
         margin-top: 500px;
         display: inline;
-        
     }
 
-    .spotify-connect p{
-       
+    .spotify-connect p {
         display: flex;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 10px;
         float: left;
         padding-left: 10px;
-        font-family:Russo One;
+        font-family: Russo One;
         font-size: 20px;
-        
     }
 
-    .iconplay{
+    .iconplay {
         display: inline;
         padding-right: 10px;
         float: right;
         font-size: 26px;
         align-items: center;
-        justify-content:center;
+        justify-content: center;
         padding-top: 5px;
-        
     }
-
-    
-
 }
-
-
