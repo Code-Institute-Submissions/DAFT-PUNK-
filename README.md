@@ -100,16 +100,26 @@ user centric milestone project
 
 1. Media
 
-* Tron_Legacy_Soundtrack.jpg                         Jesse-Coverlandia  http://coverlandia.blogspot.com/2010/10/daft-punk-tron-legacy-original-motion.html
-* starboy.jpg                                        wikipedia   
-* daft-punk-front-page-pic.jpg                       bing images   
-* design-album.jpg                                   bing images   
-* DAFT_PUNK_PULLOVER_02_grande.jpg                   daftpunk.ie 
-* DAFT_PUNK_LOGO_TEE_01_grande.webp                  daftpunk.ie 
-* DAFT_PUNK_FLOCKED_CLAY_CREW_01_grande.webp         daftpunk.ie 
-* random-access.jpg                                  pinterest
-* about-pic.jpg                                      google images   
-* daft-punk-album.jpg                                google images   
+* Tron_Legacy_Soundtrack.jpg                         
+    * Jesse-Coverlandia  http://coverlandia.blogspot.com/2010/10/daft-punk-tron-legacy-original-motion.html
+* starboy.jpg                                        
+    * wikipedia   
+* daft-punk-front-page-pic.jpg                       
+    * bing images   
+* design-album.jpg                                   
+    * bing images   
+* DAFT_PUNK_PULLOVER_02_grande.jpg                   
+    * daftpunk.ie 
+* DAFT_PUNK_LOGO_TEE_01_grande.webp                  
+    * daftpunk.ie 
+* DAFT_PUNK_FLOCKED_CLAY_CREW_01_grande.webp         
+    * daftpunk.ie 
+* random-access.jpg                                  
+    * pinterest
+* about-pic.jpg                                      
+    * google images   
+* daft-punk-album.jpg                                
+    * google images   
                                    
 
 
