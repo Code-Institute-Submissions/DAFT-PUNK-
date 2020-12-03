@@ -24,7 +24,7 @@ user centric milestone project
 3. User stories
 
 
-* What a fan wants 
+* client stories
 
     1. As a new visitor to the website I want to navigate the site with ease and no confusion.
 
@@ -42,9 +42,8 @@ user centric milestone project
 
 4. Wireframe
 
-    | col 1      | col 2      |
-    |------------|-------------|
-    | <img src="assets\images\starboy.jpg" style="width:400px; height:400px;"/> | <link src="assets\wireframe\AKD-73677220152.pdf">wireframe |
+    https://github.com/robertc181/DAFT-PUNK-/blob/main/assets/wireframe/AKD-73677220152.pdf - automatic!
+[GitHub](https://github.com/robertc181/DAFT-PUNK-/blob/main/assets/wireframe/AKD-73677220152.pdf)
  
 
 ## Features 
@@ -115,64 +114,57 @@ user centric milestone project
 
 2. Audio
 
-* track one of Random access memories  
-    * Spotify
+    * track one of Random access memories  
+        * Spotify
 
 3. Content
 
-* Wikipedia daft punk
+    * Wikipedia daft punk
 
 
 
-<img src="url/relativePath">
-
-| col 1      | col 2      |
-|------------|-------------|
-| <img src="assets\images\starboy.jpg" style="width:400px; height:400px;"/> | image 2 |
-
-http://github.com - automatic!
-[GitHub](http://github.com)
+## Testing client stories from UX section of README.MD
 
 
 1. As a new visitor to the website I want to navigate the site with ease and no confusion.
 
-* No matter what page the new visitor lands on they can easily find the navigation menu 
-* The logo image always leads back to the front page 
-* The main merch bottom smooth scrolls to the merch section
+    * No matter what page the new visitor lands on they can easily find the navigation menu 
+    * The logo image always leads back to the front page 
+    * The main merch bottom smooth scrolls to the merch section
 
 2. As a new visitor to the website I want to be able to view the merch after I click the merch call to action button
 
-* After the merch button is clicked the page smooth scrolls down to the merch section where the products are
-also a clearly labeled merch is easy to find on the navigation at all times
+    * After the merch button is clicked the page smooth scrolls down to the merch section where the products are
+    also a clearly labeled merch is easy to find on the navigation at all times
 
 3. As a new visitor to the website I want to be able to connect with the artist by looking at the about section.
 
-* A clearly labeled about page is displayed on the nav at all times and title on the about us page.
-* The about us section goes through DAFT PUNKS past and present in the recent section 
-* the recent section is also located on the nav and has a title of recent on its page.
+    * A clearly labeled about page is displayed on the nav at all times and title on the about us page.
+    * The about us section goes through DAFT PUNKS past and present in the recent section 
+    * the recent section is also located on the nav and has a title of recent on its page.
 
 3. As a new visitor to the website I want to be able to smoothly scroll through the website 
 
-* each button and nav link that locates the user to another part of the website is connect with anchor ID tags
-* I've set the HTML in the CSS file to scroll-behavior to smooth to allow for the smooth transitions
+    * each button and nav link that locates the user to another part of the website is connect with anchor ID tags
+    * I've set the HTML in the CSS file to scroll-behavior to smooth to allow for the smooth transitions
 
 4. As a new visitor to the website I want to be able to press play and view the audio player 
 
-* After the play button is clicked using JavaScript I created a popup that covers most of the page and allows the user to play the audio 
-* I've also connected a close button to the popup so that it can be closed easily.
+    * After the play button is clicked using JavaScript I created a popup that covers most of the page and allows the user to play the audio 
+    * I've also connected a close button to the popup so that it can be closed easily.
 
 5. As a new visitor to the website I want to be able to be sent to Spotify if the Spotify icon is clicked 
 
-* After the Spotify icon is clicked it locates the user in a new window where they can view the album in Spotify
+    * After the Spotify icon is clicked it locates the user in a new window where they can view the album in Spotify
 
 
 6. As a new visitor to the website I want to be able to be linked to the official daft punk shop when I click view under the merch product
 
-* after the view button is clicked the user is brought to the daft punk website 
-* also the user is brought to the exact product which they clicked to view on in the website.
+    * after the view button is clicked the user is brought to the daft punk website 
+    * also the user is brought to the exact product which they clicked to view on in the website.
 
 7. As a new visitor to the website I want to be able to link to each social media in the footer.
 
-* after any of the font awesome icons are clicked the user is sent to the daft punk social media account in a new window.
+    * after any of the font awesome icons are clicked the user is sent to the daft punk social media account in a new window.
 
 
