@@ -125,11 +125,17 @@ user centric milestone project
 
 2. Audio
 
-* track one of Random acces memories
+* track one of Random acces memories  
+    * spotify
 
 3. Content
 
-* wikipedia
+* wikipedia daft punk
 
 
 
+<img src="url/relativePath">
+
+| col 1      | col 2      |
+|------------|-------------|
+| <img src="assets\images\starboy.jpg" style="width:400px; height:400px;"/> | image 2 |
