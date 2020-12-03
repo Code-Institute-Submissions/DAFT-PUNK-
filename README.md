@@ -23,39 +23,29 @@ user centric milestone project
 
 3. User stories
 
-* as a fan 
-
-    * The ability to find each section of the website by using the navigation which follows the user throughout the page
-
-    * Big MERCH button used on the front page to direct a fan to the Merch section of the website 
-
-    * Smooth scroll creates a less frantic flow to the site allowing the user to know where they are on the site.
-
-    * Click to learn more allows the user to find out more about DAFT PUNK and the arrow is used as a metaphor 
-    to show the user that they can scroll down to view more information
-
-    * play button and connect to spotify button show the user two ways to view the album.
-
 
 * What a fan wants 
 
-    * I want to easily navigate the site so I can view the artists music merch and information 
+    1. As a new visitor to the website I want to navigate the site with ease and no confusion.
 
-    * I want to learn more about the artist so that I can better connect with the misic that I already love 
+    2. As a new visitor to the website I want to be able to view the merch after I click the merch call to action button
 
-    * I want to view the album in spotify via link
+    3. As a new visitor to the website I want to be able to connect with the artist by looking at the about section.
 
-    * I want to play the first track of the album on the website
+    4. As a new visitor to the website I want to be able to press play and view the audio player 
 
-    * I want to buy some of tha Daft Punk official merch and I want to be directly sent to thier official merch website daftpunk.com
+    5. As a new visitor to the website I want to be able to be sent to spotify if the spotify icon is clicked 
 
+    6. As a new visitor to the website I want to be able to be linked to the official daft punk shop when i click view under the merch product
+
+    7. As a new visitor to the website I want to be able to link to each social media in the footer.
 
 4. Wireframe
 
-
- - automatic!
-[github](WIRE FRAME\DAFT PUNK wireframe.bmpr)
-
+    | col 1      | col 2      |
+    |------------|-------------|
+    | <img src="assets\images\starboy.jpg" style="width:400px; height:400px;"/> | <link src="assets\wireframe\AKD-73677220152.pdf">wireframe |
+ 
 
 ## Features 
 
@@ -139,3 +129,45 @@ user centric milestone project
 | col 1      | col 2      |
 |------------|-------------|
 | <img src="assets\images\starboy.jpg" style="width:400px; height:400px;"/> | image 2 |
+
+
+1. As a new visitor to the website i want to navigate the site with ease and no confusion.
+
+* No matter what page the new visitor lands on they can easily find the navigation menu 
+* The logo image always leads back to the front page 
+* The main merch buttom smoth scrolls to the merch section
+
+2. As a new visitor to the website I want to be able to view the merch after I click the merch call to action button
+
+* After the merch button is clicked the page smooth scrolls down to the merch section where the products are
+also a clearly labelled merch is easy to find on the navigation at all times
+
+3. As a new visitor to the website I want to be able to connect with the artist by looking at the about section.
+
+* A clearly labelled about page is displayed on the nav at all times and atitle on the about us page.
+* The about us section goes through DAFT PUNKS past and present in the recent section 
+* the recent section is also located on the nav and has a title of recent on its page.
+
+3. As a new visitor to the website I want to be able to smoothly scroll through the website 
+
+* each button and nav link that locates the user to another part of the website is connect with anchor ID tags
+* Ive set the html in the css file to scroll-behaviour to smooth to allow for the smooth transitions
+
+4. As a new visitor to the website I want to be able to press play and view the audio player 
+
+* After the play button is clicked using javascript i created a popup that covers most of the page and allows the user to play the audio 
+* Ive also connected a close button to the popup so that it can be closed easily.
+
+5. As a new visitor to the website I want to be able to be sent to spotify if the spotify icon is clicked 
+
+* After the spotify icon is clicked it locates the user in a new window where they can view the album in spotify
+
+
+6. As a new visitor to the website I want to be able to be linked to the official daft punk shop when i click view under the merch product
+
+* after the view button is clicked the user is brought to the daft punk website 
+* also the user is brought to the exact product which they clicked to view on in the website.
+
+7. As a new visitor to the website I want to be able to link to each social media in the footer.
+
+* after any of the font awsome icons are clicked the user is sent to the daft punk social media account in a new window.
