@@ -45,7 +45,22 @@ user centric milestone project
     https://github.com/robertc181/DAFT-PUNK-/blob/main/assets/wireframe/AKD-73677220152.pdf - automatic!
 [GitHub](https://github.com/robertc181/DAFT-PUNK-/blob/main/assets/wireframe/AKD-73677220152.pdf)
  
+5. fonts
 
+    * use of Russo One, Anton, Exo, Raleway
+    * all from Google fonts
+
+6. colours
+
+    * Ive mainly used the colours black and white as daft punk are famous for using both of these colours
+
+7. styling
+
+    * i have used allot of corners and black and white features in this website to connect this website with daft punks style
+    * also using a box pattern feature in the albums section 
+
+    ![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
 ## Features 
 
 * navigation transparent to colour
@@ -75,6 +90,7 @@ user centric milestone project
 * merch section 
 
     * 3 of daft punk official merch products have buttons bellow to link them to the daftpunk website where they can be purchased
+
 
 
 ## Technologies
@@ -167,4 +183,23 @@ user centric milestone project
 
     * after any of the font awesome icons are clicked the user is sent to the daft punk social media account in a new window.
 
+
+
+## Deyployment 
+
+1. Firstly to create this project I created a repo in git hub called DAFT_PUNK_ and added my readme.
+
+2. Next I opened up visual studio code where I created a file with assets css and html inside.
+
+3. To connect my local file with my githup repo I went to my console and firstly used (cd) to locate my local file
+
+4. Next i used git clone and my repo link from git hup to clone my repo to my local file 
+
+5. After this i started coding and after i was happy wioth my progress i use git commit -m "" and this was my initial commit.
+
+6. After i pushed the code up to github
+
+7. To deploy my project i went into settings in githup and located github pages 
+
+8. I then seelected the master and created the hosted site.
 
